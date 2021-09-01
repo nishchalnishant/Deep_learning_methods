@@ -1,0 +1,5 @@
+- Unet -- 2015
+- Segnet -- 2015
+- Fcn -- 2016
+- Deeplabv3 -- 2017
+- Espnet -- 2018

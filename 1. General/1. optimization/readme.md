@@ -1,0 +1,4 @@
+- Scholastic gradient discent
+- Adam optimizers
+- Rms prop
+- Scholastic gradient discent with momentum

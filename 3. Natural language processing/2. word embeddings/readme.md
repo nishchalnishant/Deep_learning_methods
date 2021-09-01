@@ -1,0 +1,4 @@
+- Cbow word2vec -- 2013
+- Glove -- 2014
+- Fast text -- 2016
+- Elmo -- 2018

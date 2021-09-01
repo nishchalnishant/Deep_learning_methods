@@ -1,0 +1,6 @@
+- G-CNN
+- YOLO
+- SSD
+- YOLOv2
+- DSSD
+- DSOD

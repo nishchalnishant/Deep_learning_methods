@@ -1,0 +1,11 @@
+- Random resized crop -- 2000
+- Random horizontal flip -- 2000
+- Colour jitter --- 2000
+- Random gaussian blur -- 2000
+- Random scaling -- 2000
+- Image scale augmentation -- 2000
+- Mixup -- 2017
+- Cutout-- 2017
+- Autoaugment -- 2018
+- Cutmix -- 2019
+- Randaugment -- 2019

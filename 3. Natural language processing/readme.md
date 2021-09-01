@@ -11,8 +11,6 @@
 - Albert --2019
 - Gpt -3 -- 2020
 
-# Transformers
-
 # Word embeddings
 
 - Cbow word2vec -- 2013

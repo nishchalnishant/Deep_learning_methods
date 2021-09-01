@@ -1,0 +1,5 @@
+- Ctc loss
+- Gan least squares loss
+- Cycle consistency loss
+- Focal loss
+- Triplet loss

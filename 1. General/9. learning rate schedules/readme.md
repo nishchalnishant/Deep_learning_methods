@@ -1,0 +1,4 @@
+- Linear warm up with linear decay
+- Linear warmup with cosine annealing
+- Stop decay
+- Exponential decay

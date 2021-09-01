@@ -1,0 +1,14 @@
+- Restricted Boltzmann machine -- 1986
+- Auto encoder -- 2006
+- Denoising autoencoder -- 2008
+- Vae -- 2013
+- Gan -- 2014
+- Dcgan -- 2015
+- Pix2pix-- 2016
+- Cycle gan -- 2017
+- Wgan -- 2017
+- Style gan -- 2018
+- Sagan -- 2018
+- Bigggan -- 2018
+- Glow -- 2018
+- Style gan 2-- 2019

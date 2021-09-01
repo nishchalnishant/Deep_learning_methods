@@ -1,0 +1,4 @@
+- Resudual block
+- Bottleneck Residual block
+- Dense block
+- Inverted residual block

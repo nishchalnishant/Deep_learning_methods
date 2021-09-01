@@ -1,0 +1,5 @@
+- Sgd
+- Sgd with momentum
+- Ada Grad
+- Ada delta
+- Rms prop
