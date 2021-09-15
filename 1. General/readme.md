@@ -107,6 +107,14 @@ In addition to the custom made loss functions we can also make our own custom lo
 
 Adapting the learning rate for your stochastic gradient descent optimization procedure can increase performance and reduce training time.
 
+Decreasing the learning rate during training can lead to improved accuracy and (most perplexingly) reduced overfitting of the model.
+
+A warmup period before optimization can prevent divergence.
+
+Optimization serves multiple purposes in deep learning.
+
+Besides minimizing the training objective, different choices of optimization algorithms and learning rate scheduling can lead to rather different amounts of generalization and overfitting on the test set (for the same amount of training error).
+
 - Linear warm up with linear decay
 - Linear warmup with cosine annealing
 - Stop decay
