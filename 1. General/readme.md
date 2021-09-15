@@ -37,18 +37,6 @@ Goal is to break down complicated tasks into smaller areas of attention that are
 - Multi head attention
 - Scaled dot product attention
 
-# Stochastic optimization
-
-Stochastic optimization refers to a collection of methods for minimizing or maximizing an objective function when randomness is present.
-
-Stochastic optimization algorithms provide an alternative approach that permits less optimal local decisions to be made within the search procedure that may increase the probability of the procedure locating the global optima of the objective function.
-
-- Sgd
-- Sgd with momentum
-- Ada Grad
-- Ada delta
-- Rms prop
-
 # Regularization
 
 Technique used for tuning the function by adding an additional penalty term in the error function.
@@ -119,12 +107,3 @@ Besides minimizing the training objective, different choices of optimization alg
 - Linear warmup with cosine annealing
 - Stop decay
 - Exponential decay
-
-# Feed forward networks
-
-A Feed Forward Neural Network is an artificial neural network in which the connections between nodes does not form a cycle.
-
-- Dense connections
-- Feed forward network
-- linear layer
-- highway newtork
