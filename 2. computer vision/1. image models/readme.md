@@ -9,5 +9,4 @@
 - Dark net -53 -- 2018
 - Efficient net v0-v7 --2018
 
-
-https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/Screenshot%202021-09-15%20134934.png
+![Development of image models](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/Screenshot%202021-09-15%20134934.png)
