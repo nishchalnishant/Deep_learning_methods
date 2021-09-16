@@ -46,7 +46,7 @@ architecture used to perform the task of object detection [ classification + loc
 
 A natural choice to scan the whole image with a multi-scale sliding window, but it is computationally very expensive and produces too amny redundant windows.
 
-- One stage models
+> One stage models
 
 requires only a single pass through the neural network and predicts all the bounding boxes in one go.
 
@@ -61,7 +61,7 @@ Usually have faster inference (at the cost of performance ) than two stage model
 - DSSD
 - DSOD
 
-- Two stage models
+> Two stage models
 
 One follows traditional object detection pipeline, generating region proposals at first and then classifying each proposal into different object categories
 
