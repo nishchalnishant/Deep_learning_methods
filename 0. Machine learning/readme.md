@@ -1,0 +1,1 @@
+- This sub part of the repository contains the traditional machine learning methods ranging from regression techniques such as linear regression to dimensionality reduction techniques such as LDA, PCA ext.
