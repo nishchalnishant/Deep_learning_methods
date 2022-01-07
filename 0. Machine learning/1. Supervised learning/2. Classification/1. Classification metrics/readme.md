@@ -5,6 +5,11 @@ Most of the metrics in the classification are based on the TP, FP, TN, FN
 Metrics that can be used for classification techniques --
 
 **Accuracy**
+
+- Measures how often the classifier correctly predicts.
+- High accuracy rate can be misleading , most probably we are overfitting in this case.
+- Useful metric in cases where the target class is well balanced but is not good in cases of unbalanced classes
+
 **Precision**
 
 - Explains how many of the correctly predicted cases actually turned out to be posetive .
@@ -20,11 +25,13 @@ Metrics that can be used for classification techniques --
 - gives combined idea about precision and recall metrics .
 - maximum when precision is equal to recall.
 - punishes extreme values more , it is an effective evaluation metrics when
-  false posetive and false negatives are equally costly
-  adding more data doesn't effectively change the outcome
-  true negative is high
+- false posetive and false negatives are equally costly
+- adding more data doesn't effectively change the outcome
+- true negative is high
 
 **Confusion matrix**
+
+- It is a table with combinations of predicted and actual values.
 
 **ROC curve**
 
@@ -38,3 +45,8 @@ Metrics that can be used for classification techniques --
 - When AUC is equal to 1, the classifier is able to perfectly distinguish between all Positive and Negative class points. When AUC is equal to 0, the classifier would be predicting all Negatives as Positives and vice versa. When AUC is 0.5, the classifier is not able to distinguish between the Positive and Negative classes.
 
 **log loss / logistic loss or cross entropy loss**
+
+- the complete formula can be divided into --
+- When the actual class is 1: second term in the formula would be 0 and we will left with first term i.e. yi.log(p(yi)) and (1-1).log(1-p(yi) this will be 0.
+
+- When the actual class is 0: First-term would be 0 and will be left with the second term i.e (1-yi).log(1-p(yi)) and 0.log(p(yi)) will be 0.
