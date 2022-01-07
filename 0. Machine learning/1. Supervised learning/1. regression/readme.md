@@ -23,7 +23,7 @@ Metrics that can be used for regression techniques --
 
 **Adjusted R squares**
 
-- ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/regression.jpeg?raw=true)
+- ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/regression.png?raw=true)
 
 Algorithms for regression --
 
