@@ -1,6 +1,6 @@
 Most of the metrics in the classification are based on the TP, FP, TN, FN
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/classification.jpeg?raw=true)
 
 Metrics that can be used for classification techniques --
 
