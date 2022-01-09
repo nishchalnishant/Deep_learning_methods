@@ -25,11 +25,11 @@ Assumptions while creating Decision Tree
 - The decision tree splits the nodes on all available variables and then selects the split which results in most homogeneous sub-nodes.
 - The algorithm selection is also based on the type of target variables. Let us look at some algorithms used in Decision Trees:
 
-ID3 → (extension of D3)
-C4.5 → (successor of ID3)
-CART → (Classification And Regression Tree)
-CHAID → (Chi-square automatic interaction detection Performs multi-level splits when computing classification trees)
-MARS → (multivariate adaptive regression splines)
+> ID3 → (extension of D3)
+> C4.5 → (successor of ID3)
+> CART → (Classification And Regression Tree)
+> CHAID → (Chi-square automatic interaction detection Performs multi-level splits when computing classification trees)
+> MARS → (multivariate adaptive regression splines)
 
 # ID3 algorithm --
 
