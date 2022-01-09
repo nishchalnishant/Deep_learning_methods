@@ -1,4 +1,4 @@
-## Important Terminology related to Decision Trees
+# Important Terminology related to Decision Trees
 
 - **Root Node**: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.
 - **Splitting**: It is a process of dividing a node into two or more sub-nodes.
@@ -8,7 +8,7 @@
 - **Branch / Sub-Tree**: A subsection of the entire tree is called branch or sub-tree.
 - **Parent and Child Node**: A node, which is divided into sub-nodes is called a parent node of sub-nodes whereas sub-nodes are the child of a parent node.
 
-## Some of the assumptions we make while using Decision tree:
+# Some of the assumptions we make while using Decision tree:
 
 - In the beginning, the whole training set is considered as the root.
 - Feature values are preferred to be categorical. If the values are continuous then they are discretized prior to building the model.
@@ -23,13 +23,17 @@
 - The decision tree splits the nodes on all available variables and then selects the split which results in most homogeneous sub-nodes.
 - The algorithm selection is also based on the type of target variables. Let us look at some algorithms used in Decision Trees:
 
-- ID3 → (extension of D3)
-- C4.5 → (successor of ID3)
-- CART → (Classification And Regression Tree)
-- CHAID → (Chi-square automatic interaction detection Performs multi-level splits when computing classification trees)
-- MARS → (multivariate adaptive regression splines)
+#### ID3 → (extension of D3)
 
-# ID3 algorithm --
+#### C4.5 → (successor of ID3)
+
+#### CART → (Classification And Regression Tree)
+
+#### CHAID → (Chi-square automatic interaction detection Performs multi-level splits when computing classification trees)
+
+#### MARS → (multivariate adaptive regression splines)
+
+## ID3 algorithm --
 
 - Buids descision tree using top down greedy search [ makes the choice that seem the best at the moment] approach through the space of possible branches with no backtracking.
 
@@ -40,16 +44,16 @@
 - - The set S is then split by the selected attribute to produce a subset of the data.
 - - The algorithm continues to recur on each subset, considering only attributes never selected before.
 
-# Avoiding overfitting in descision trees--
+## Avoiding overfitting in descision trees--
 
-- Pruning Decision Trees --
+### Pruning Decision Trees --
 
 - - Fully grown trees is likely to ovefit the data , leading to poor accuracy on unseen data.
 - - In pruning , we trim off the brnaches of the tree i.e. remove the descision nodes starting from the leaf node such that the overall accuracy is not disturbed.
 - - This is done by segregating the actual training set into two sets: training data set, D and validation data set, V. Prepare the decision tree using the segregated training data set, D.
 - - Then continue trimming the tree accordingly to optimize the accuracy of the validation data set, V.
 
-- Random forest --
+### Random forest --
 
 - - Random Forest is an example of ensemble learning, in which we combine multiple machine learning algorithms to obtain better predictive performance.
 - - Two key concepts that give it the name random:
