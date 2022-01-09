@@ -1,16 +1,14 @@
 ## Important Terminology related to Decision Trees
 
-**Root Node**: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.
-**Splitting**: It is a process of dividing a node into two or more sub-nodes.
-**Decision Node**: When a sub-node splits into further sub-nodes, then it is called the decision node.
-**Leaf / Terminal Node**: Nodes do not split is called Leaf or Terminal node.
-**Pruning**: When we remove sub-nodes of a decision node, this process is called pruning. You can say the opposite process of splitting.
-**Branch / Sub-Tree**: A subsection of the entire tree is called branch or sub-tree.
-**Parent and Child Node**: A node, which is divided into sub-nodes is called a parent node of sub-nodes whereas sub-nodes are the child of a parent node.
+- **Root Node**: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.
+- **Splitting**: It is a process of dividing a node into two or more sub-nodes.
+- **Decision Node**: When a sub-node splits into further sub-nodes, then it is called the decision node.
+- **Leaf / Terminal Node**: Nodes do not split is called Leaf or Terminal node.
+- **Pruning**: When we remove sub-nodes of a decision node, this process is called pruning. You can say the opposite process of splitting.
+- **Branch / Sub-Tree**: A subsection of the entire tree is called branch or sub-tree.
+- **Parent and Child Node**: A node, which is divided into sub-nodes is called a parent node of sub-nodes whereas sub-nodes are the child of a parent node.
 
-Assumptions while creating Decision Tree
-
-## some of the assumptions we make while using Decision tree:
+## Some of the assumptions we make while using Decision tree:
 
 - In the beginning, the whole training set is considered as the root.
 - Feature values are preferred to be categorical. If the values are continuous then they are discretized prior to building the model.
@@ -25,11 +23,11 @@ Assumptions while creating Decision Tree
 - The decision tree splits the nodes on all available variables and then selects the split which results in most homogeneous sub-nodes.
 - The algorithm selection is also based on the type of target variables. Let us look at some algorithms used in Decision Trees:
 
-> ID3 → (extension of D3)
-> C4.5 → (successor of ID3)
-> CART → (Classification And Regression Tree)
-> CHAID → (Chi-square automatic interaction detection Performs multi-level splits when computing classification trees)
-> MARS → (multivariate adaptive regression splines)
+- ID3 → (extension of D3)
+- C4.5 → (successor of ID3)
+- CART → (Classification And Regression Tree)
+- CHAID → (Chi-square automatic interaction detection Performs multi-level splits when computing classification trees)
+- MARS → (multivariate adaptive regression splines)
 
 # ID3 algorithm --
 
