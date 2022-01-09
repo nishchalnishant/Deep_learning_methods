@@ -41,4 +41,6 @@ Algorithms for regression --
 
 **Descision tree**
 
-**Random forest**
+- Can be used to solve regression and classification problems.
+- We start from root of the tree and compare the root attribute with the record attribute, on the basis of comparison we follow the branch corresponding to that value and jump to the next node.
+- **Random forest**
