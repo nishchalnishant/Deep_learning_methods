@@ -1,6 +1,6 @@
 Metrics that can be used for regression techniques --
 
-**mean absolute error (MAE)**
+_mean absolute error (MAE) _
 
 - sum of all errors and divide them by a total number of observations.
 - 1/n\*(sum of (y-y_hat))
