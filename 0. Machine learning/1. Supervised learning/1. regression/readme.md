@@ -1,6 +1,6 @@
-Metrics that can be used for regression techniques --
+## Metrics that can be used for regression techniques --
 
-_mean absolute error (MAE) _
+**mean absolute error (MAE)**
 
 - sum of all errors and divide them by a total number of observations.
 - 1/n\*(sum of (y-y_hat))
@@ -25,7 +25,7 @@ _mean absolute error (MAE) _
 
 - ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/regression.png?raw=true)
 
-Algorithms for regression --
+## Algorithms for regression --
 
 **Linear regression**
 
