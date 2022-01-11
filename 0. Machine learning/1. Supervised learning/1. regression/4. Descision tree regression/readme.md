@@ -56,11 +56,7 @@
 ### Random forest --
 
 - - Random Forest is an example of ensemble learning, in which we combine multiple machine learning algorithms to obtain better predictive performance.
-- - Two key concepts that give it the name random:
-
-A random sampling of training data set when building trees.
-Random subsets of features considered when splitting nodes.
-
+- - Two key concepts that give it the name random:A random sampling of training data set when building trees and Random subsets of features considered when splitting nodes.
 - - Bagging is used to create an ensemble of tree where multiple training sets are generated with replacement.
 - - In the bagging technique, a data set is divided into N samples using randomized sampling.
 - - Then, using a single learning algorithm a model is built on all samples.
