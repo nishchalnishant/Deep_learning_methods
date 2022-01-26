@@ -54,15 +54,10 @@ Error --
 **Interpreting the Results**
 |Test Method |Compare |Result|
 |------------|--------|------|
-|Classical |test statistic > critical value
-(i.e. F > F crit) |
-Reject the null hypothesis|
-|Classical |test statistic < critical value
-(i.e. F < F crit) |
-Cannot reject the null hypothesis|
+|Classical |test statistic > critical value(i.e. F > F crit) |Reject the null hypothesis|
+|Classical |test statistic < critical value(i.e. F < F crit) |Cannot reject the null hypothesis|
 |p value |p value < α |Reject the null hypothesis|
-|p value |p value > α |Cannot reject the null
-hypothesis|
+|p value |p value > α |Cannot reject the null hypothesis|
 
 **T-test**
 
