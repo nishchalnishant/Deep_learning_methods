@@ -7,6 +7,7 @@
 - **Pruning**: When we remove sub-nodes of a decision node, this process is called pruning. You can say the opposite process of splitting.
 - **Branch / Sub-Tree**: A subsection of the entire tree is called branch or sub-tree.
 - **Parent and Child Node**: A node, which is divided into sub-nodes is called a parent node of sub-nodes whereas sub-nodes are the child of a parent node.
+- **Entropy**: Entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.
 
 # Some of the assumptions we make while using Decision tree:
 
@@ -41,6 +42,7 @@
 - - It begins with the original set S as the root node.
 - - On each iteration of the algorithm, it iterates through the very unused attribute of the set S and calculates Entropy(H) and Information gain(IG) of this attribute.
 - - It then selects the attribute which has the smallest Entropy or Largest Information gain.
+- - ID3 follows the rule — A branch with an entropy of zero is a leaf node and A brach with entropy more than zero needs further splitting.
 - - The set S is then split by the selected attribute to produce a subset of the data.
 - - The algorithm continues to recur on each subset, considering only attributes never selected before.
 
