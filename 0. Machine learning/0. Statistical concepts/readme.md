@@ -52,16 +52,17 @@ Error --
 - Type 2 -- Not reject a null hypothesis that is false.
 
 **Interpreting the Results**
-
-<tr><td>Test Method</td><td> Compare</td> <tr>Result</td></tr>
-<tr><td>Classical</td><td> test statistic > critical value 
-(i.e. F > F crit)</td><td>
-Reject the null hypothesis</td></tr>
-<tr><td>Classical</td><td> test statistic < critical value 
-(i.e. F < F crit)</td><td>
-Cannot reject the null hypothesis</td></tr>
-<tr><td>p value </td><td>p value < α </td><td>Reject the null hypothesis</td></tr>
-<tr><td>p value </td><td>p value > α </td><td>Cannot reject the null hypothesis</td></tr>
+|Test Method |Compare |Result|
+|------------|--------|------|
+|Classical |test statistic > critical value
+(i.e. F > F crit) |
+Reject the null hypothesis|
+|Classical |test statistic < critical value
+(i.e. F < F crit) |
+Cannot reject the null hypothesis|
+|p value |p value < α |Reject the null hypothesis|
+|p value |p value > α |Cannot reject the null
+hypothesis|
 
 **T-test**
 
