@@ -3,9 +3,16 @@ Based on types of prediction it can be divided in to
 
 # Regression
 
-We are trying to predict a number .
+**- We are trying to predict a number**
 
-Metrics that can be used for regression techniques --
+**Algorithms for regression**--
+
+- Linear regression
+- Support vector machines
+- Descision tree
+- Random forest
+
+**Metrics that can be used for regression techniques** --
 
 - mean absolute error (MAE)
 - mean squared error (MSE)
@@ -13,28 +20,11 @@ Metrics that can be used for regression techniques --
 - R squared
 - Adjusted R squares
 
-Algorithms for regression --
-
-- Linear regression
-- Support vector machines
-- Descision tree
-- Random forest
-
 # Classification
 
-We are trying to predict a class
+**We are trying to predict a class**
 
-Metrics that can be used for classification techniques --
-
-- Accuracy
-- Precision
-- Recall
-- F1 score
-- Confusion matrix
-- ROC curve
-- log loss / logistic loss or cross entropy loss
-
-Algorithms for classification
+**Algorithms for classification**
 
 - Logistic regression
 - Random forest
@@ -45,3 +35,13 @@ Algorithms for classification
 - XGBoost
 - LightGBM
 - CatBoost
+
+**Metrics that can be used for classification techniques** --
+
+- Accuracy
+- Precision
+- Recall
+- F1 score
+- Confusion matrix
+- ROC curve
+- log loss / logistic loss or cross entropy loss
