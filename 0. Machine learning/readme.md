@@ -2,8 +2,29 @@
 
 # Statistical concepts
 
-- Measures of central tendency
-- Hypothesis testing
+**Measures of central tendency** --
+
+- Mean
+- Median
+- Mode
+
+**Measures of spread** --
+
+- Range
+- Percentiles
+- Quartiles
+- Interquartile range
+- Mean absolute deviation
+- Variance
+- Standard deviation
+- Median absolute deviation
+
+**Normal distribution** --
+**Skewness**
+**Central limit theorm**
+**Probability density function**
+**cumulative distributive function**
+**Hypothesis testing**
 
 # Supervised learning - Learning where we have data as well as labels corresponding to them
 
