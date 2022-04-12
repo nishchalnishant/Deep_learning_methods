@@ -1,4 +1,11 @@
-Metrics that can be used for classification techniques --
+**Use cases**
+
+- Image classification
+- Customer retention
+- Identity fraud detection
+- Diagnostics
+
+# Metrics that can be used for classification techniques --
 
 **Accuracy**
 
@@ -28,9 +35,15 @@ seperates signal from noise.
 - log loss / logistic loss or cross entropy loss
   logloss= -1/N*(y*log(p)+(1-y)\*log(1-p))
 
-Algorithms for classification
+# Algorithms for classification
 
-- Logistic regression
+**Logistic regression**
+
+- similar to linear regression but is used to model the probability of a discrete number of outcomes
+- First, we calculate a score using an equation similar to the equation for the line of best fit for linear regression.
+- The extra step is feeding the score that you previously calculated in the sigmoid function below so that you get a probability in return. This probability can then be converted to a binary output, either 1 or 0.
+- To find the weights of the initial equation and calculate the score, methods like gradient descent or maximum likelihood are used.
+
 - Random forest
 - Naive bayes
 - Support vector machines

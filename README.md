@@ -6,6 +6,12 @@ Methods in this repository is mostly derived from https://paperswithcode.com/met
 
 # Methods we are covering in this repo--
 
+Machine learning
+
+- statistical concepts
+- Supervised learning
+- Unsupervised learning
+
 General
 
 - Covers the general components of deep learning

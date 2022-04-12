@@ -1,9 +1,19 @@
 These techniques are used in cases when we have training data as well as the labels associated with them.
-Based on types of prediction it can be divided in to
+Based on types of prediction it can be divided in to.
+
+# Supervised learning applications --
+
+- predictive analysis based on regression or categorical classification
+- spam detection
+- pattern detection
+- Natural language processing
+- Sentiment analysis
+- Automatic image classification
+- Automatic sequence processing
 
 # Regression
 
-**- We are trying to predict a number**
+**_We are trying to predict a number_**
 
 **Algorithms for regression**--
 

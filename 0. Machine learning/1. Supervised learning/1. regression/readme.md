@@ -1,3 +1,11 @@
+**Use cases**
+
+- Population growth prediction
+- Advertising popularity prediction
+- Weather forecasting
+- Market forecasting
+- Estimating life expectancy
+
 ## Metrics that can be used for regression techniques --
 
 **mean absolute error (MAE)**
@@ -43,4 +51,14 @@
 
 - Can be used to solve regression and classification problems.
 - We start from root of the tree and compare the root attribute with the record attribute, on the basis of comparison we follow the branch corresponding to that value and jump to the next node.
-- **Random forest**
+
+**Random forest**
+
+- Random forest is a supervised ensemble learning algorithm that is used for both classifications as well as regression problems.
+- But however, it is mainly used for classification problems.
+- the random forest algorithm creates decision trees on data samples and then gets the prediction from each of them and finally selects the best solution by means of voting.
+- It is an ensemble method that is better than a single decision tree because it reduces the over-fitting by averaging the result.
+
+**K nearest neighbours**
+
+-

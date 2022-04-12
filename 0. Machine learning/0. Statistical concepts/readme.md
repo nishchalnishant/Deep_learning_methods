@@ -10,6 +10,36 @@
 - Subset of the population taken when entire population is too large to tanalyze its charachteristics.
 - Ex -- first time voters in an election.
 
+# Data typs --
+
+**Qualitative data**
+
+- Can't be expressed as a number and can't be measured.
+- Consists of words, pictures and symbols, not numbers.
+- Also known as categorical data as information can be stored by category, not by numbers.
+- Ex-- colrs, names, ethinicoity.
+
+**_Nominal Data_**
+
+- Used just for labeling variables , without any type of quantitative values.
+- Just name a thing without applying it to order , can just be called labels.
+- Ex-- Gender ( Men, Women), Hair color ( Blonde , Brown etc.), Marital Status (Married, Single, Widowed)
+
+**_Ordnial Data_**
+
+- Showes where a number is in order .
+- Data which is placed into some kind of order by their position on a scale, these may indicate superiority.
+
+**Quantative data**
+
+- Can be expressed as numbers ,measured by numerical variables.
+- Easily amenable to statistical manipulation and can be represented by Graphs.
+- Ex- Scores on test and exams, The weight of a person or a subject, Shoe size.
+
+**_Discrete Data_**
+
+**_Continous Data_**
+
 # Measures of central tendency --
 
 **Mean**

@@ -26,12 +26,15 @@
 **cumulative distributive function**
 **Hypothesis testing**
 
+- learning
+  majority of the algorithms try to find th ebest seperating hyperplane by imposing different conditions , however the goal is slways the same , reducing the number of missclassification and increasing the noise robustness.
+
 # Supervised learning - Learning where we have data as well as labels corresponding to them
 
 - Regresssion - trying to predict a number
 - Classification - trying to predict a class
 
-# Unsupervised learning
+# Unsupervised learning - Learning where we only have the data.
 
 - Clusturing - dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups
 - Dimensionality Reduction - techniques that reduce the number of input variables in a dataset
