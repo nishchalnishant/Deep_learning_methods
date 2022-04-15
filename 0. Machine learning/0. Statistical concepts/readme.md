@@ -84,14 +84,14 @@
 
 **Variance** --
 
-- measure how far is data point is from the mean, only the difference from MAD and variance is we take square here.
-- variance is computed by finding the difference between each data point and mean, squaring them, summing them up, and take the average of all those numbers.
+- Measure how far is data point is from the mean, only the difference from MAD and variance is we take square here.
+- Variance is computed by finding the difference between each data point and mean, squaring them, summing them up, and take the average of all those numbers.
 
 **Standard deviation** --
 
-- the standard deviation is simply the square root of variance so we get again the value in the same measurement.
-- also measures dispersion around the mean but in the same unit as the values.
-- sigma is used to denote std. deviation of the populations and s is used as the standard deviation of the sample.
+- The standard deviation is simply the square root of variance so we get again the value in the same measurement.
+- Also measures dispersion around the mean but in the same unit as the values.
+- Sigma is used to denote std. deviation of the populations and s is used as the standard deviation of the sample.
 
 **Median absolute deviation** --
 
@@ -103,7 +103,7 @@
 
 **Skewness** --
 
-- measure of the symmetry of distribution that you plot in form of a histogram.
+- Measure of the symmetry of distribution that you plot in form of a histogram.
 - A distribution is symmetrical when the proportion of data at an equal distance from the mean (or median) is equal.
 - If the values extend to the right, it is right-skewed, and if the values extend left, it is left-skewed.
 
