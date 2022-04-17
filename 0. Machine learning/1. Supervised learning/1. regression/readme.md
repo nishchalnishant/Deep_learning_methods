@@ -11,17 +11,20 @@
 **mean absolute error (MAE)**
 
 - sum of all errors and divide them by a total number of observations.
-- 1/n\*(sum of (y-y_hat))
+
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/mae.jpg?raw=true)
 
 **mean squared error (MSE)**
 
 - Sum of all errors squared and dividing them by total number of observations.
-- 1/n\*(y-y_hat)^2
+
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/mse.jpg?raw=true)
 
 **Root mean squared error (RMSE)**
 
 - Square root of mean squared error
-- sqrt(1/n\*(y-y_hat)^2)
+
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/rmse.jpg?raw=true)
 
 **R squared**
 
