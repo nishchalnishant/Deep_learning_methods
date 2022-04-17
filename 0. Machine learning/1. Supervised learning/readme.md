@@ -22,7 +22,7 @@ Based on types of prediction it can be divided in to.
 - Descision tree
 - Random forest
 
-**Metrics that can be used for regression techniques** --
+**Metrics that can be used for regression techniques**
 
 - mean absolute error (MAE)
 - mean squared error (MSE)
@@ -46,7 +46,7 @@ Based on types of prediction it can be divided in to.
 - LightGBM
 - CatBoost
 
-**Metrics that can be used for classification techniques** --
+**Metrics that can be used for classification techniques**
 
 - Accuracy
 - Precision

@@ -29,9 +29,11 @@
 - Squared sum error of regression line
 - Squared sum error of mean line
 
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/r_squared.jpg?raw=true)
+
 **Adjusted R squares**
 
-- ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/regression.png?raw=true)
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/regression.png?raw=true)
 
 ## Algorithms for regression --
 

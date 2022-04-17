@@ -261,7 +261,7 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 - A binomial trial is an experiment with two possible outcomes: one with probability p and the other with probability 1 – p.
 - With large n, and provided p is not too close to 0 or 1, the binomial distribution can be approximated by the normal distribution.
 
-**Poisson and Related Distributions**
+# Poisson and Related Distributions
 
 **Lambda**
 
