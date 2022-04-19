@@ -1,5 +1,7 @@
 # Important Terminology related to Decision Trees
 
+https://gdcoder.com/decision-tree-regressor-explained-in-depth/
+
 - **Root Node**: It represents the entire population or sample and this further gets divided into two or more homogeneous sets.
 - **Splitting**: It is a process of dividing a node into two or more sub-nodes.
 - **Decision Node**: When a sub-node splits into further sub-nodes, then it is called the decision node.
