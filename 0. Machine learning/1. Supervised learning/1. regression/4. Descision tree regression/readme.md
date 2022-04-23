@@ -75,3 +75,17 @@ https://gdcoder.com/decision-tree-regressor-explained-in-depth/
 - If there is a high non-linearity & complex relationship between dependent & independent variables, a tree model will outperform a classical regression method.
 
 - If you need to build a model that is easy to explain to people, a decision tree model will always do better than a linear model. Decision tree models are even simpler to interpret than linear regression!
+
+**Pros:**
+
+- Compared to other algorithms, data preparation requires less time.
+- Doesn’t require data to be normalized.
+- Missing values, to an extent, don’t affect its performance much.
+- Is very intuitive as can be explained as if-else conditions.
+
+**Cons:**
+
+- Needs a lot of time to train the model.
+- A small change in data can cause a considerably large change in the Decision Tree structure.
+- Comparatively expensive to train.
+- Not good for regression tasks.

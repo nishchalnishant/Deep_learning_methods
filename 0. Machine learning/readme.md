@@ -2,11 +2,29 @@
 
 # Statistical concepts
 
+**Key terms for Data types**
+
+- Qualitative data
+- Nominal Data
+- Ordnial Data
+- Quantative data
+- Discrete Data
+- Categorical data
+- Binary
+
+**KEY TERMS FOR RECTANGULAR DATA**
+
+- Data frame
+- Feature
+
 **Measures of central tendency** --
 
 - Mean
+- Weighted mean
 - Median
 - Mode
+- Robust
+- Outlier
 
 **Measures of spread** --
 
@@ -14,20 +32,68 @@
 - Percentiles
 - Quartiles
 - Interquartile range
+
+**KEY TERMS FOR VARIABILITY METRICS**
+
+- Deviations
 - Mean absolute deviation
+- Median absolute deviation from the median
 - Variance
 - Standard deviation
 - Median absolute deviation
 
-**Normal distribution** --
-**Skewness**
-**Central limit theorm**
-**Probability density function**
-**cumulative distributive function**
-**Hypothesis testing**
+**KEY TERMS FOR EXPLORING THE DISTRIBUTION**
 
-- learning
-  majority of the algorithms try to find th ebest seperating hyperplane by imposing different conditions , however the goal is slways the same , reducing the number of missclassification and increasing the noise robustness.
+- Boxplot
+- Frequency table
+- Histogram
+
+**Data and Sampling Distributions**
+
+- Population
+- Sample
+- Random sampling
+- Stratified sampling
+- Simple random sample
+- Sample bias
+- Central Limit Theorem
+- Standard Error
+- Bootstrap sample
+- Resampling
+- Confidence level
+- Interval endpoints
+- Probability density function
+- cumulative distributive function
+- Standard error
+- Skewness
+- Kurtosis
+
+**Distributions**
+
+- Normal distribution
+- Long-Tailed Distributions
+- t-Distribution
+- Binomial Distribution
+
+**Poisson and Related Distributions**
+
+- Lambda
+- Poisson distribution
+- Exponential distribution
+- Weibull distribution
+- Bernoulli
+- continous
+- Normal/Gaussian
+- Exponential
+
+**Statistical Experiments and Significance Testing**
+
+- A/B Testing
+- Hypothesis testing
+- T-test
+- ANOVA
+- Chi-Square test
+- Concetps
 
 # Supervised learning - Learning where we have data as well as labels corresponding to them
 

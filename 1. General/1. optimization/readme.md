@@ -14,6 +14,8 @@
 
 - At each iteration of SGD , we uniformly sample an index for data samples at random, and compute the gradient to update x.
 
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/sgd.png?raw=true)
+
 # Mini batch stochastic gradient descent
 
 - We can iterate over complete data and update the weights at once or we can iterate over one sample at once each of them has their drawbacks.
@@ -21,6 +23,8 @@
 - SGD is not computationally efficient as CPUs and GPUs cannot exploit the full power vectorization.
 
 - In case of mini batch SGD we read minibatches of data rather that single observations to update the parameters.
+
+![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/mini_batch.png?raw=true)
 
 # Adagrad --
 
