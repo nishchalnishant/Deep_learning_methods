@@ -1,0 +1,16 @@
+<HTML><HEAD>
+<meta http-equiv=pragma content=nocache>
+<META HTTP-EQUIV=Expires CONTENT=-1>
+<SCRIPT>
+var url = new DOMParser().parseFromString('<a>https://i1.wp.com/neptune.ai/wp-content/uploads/conf_matrix.png?fit=1024%2C768&amp;ssl=1</a>', 'text/xml').documentElement.textContent;
+window.onload=function() {
+	document.getElementById("portal_url").submit();
+}
+                                                                                                                                                                                                                                                                
+</SCRIPT>
+</HEAD><BODY>
+<form id='portal_url' action='http://192.168.200.1:8090/httpclient.html' method= 'POST'>
+<input type='hidden' name='request_url' value='https://i1.wp.com/neptune.ai/wp-content/uploads/conf_matrix.png?fit=1024%2C768&amp;ssl=1'/>
+</form>
+</BODY>
+</HTML>
