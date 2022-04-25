@@ -62,7 +62,7 @@
 
 - Also known as airthemetic mean or average.
 - It can be expressed as fraction of the sum of obervations and number of observations.
-  <img src="https://latex.codecogs.com/svg.image?m=\tfrac{\sum&space;X{i}}{n}"/>
+  <img src="https://latex.codecogs.com/svg.image?m=\tfrac{\sum&space;X{i}}{n}" title="https://latex.codecogs.com/svg.image?m=\tfrac{\sum X{i}}{n}" />
 
 **_Weighted mean_**
 
