@@ -1,7 +1,0 @@
-- Weight decay
-- Label smoothing
-- L1 regularization
-- Early stopping
-- Dropout
-- Entropy regularization
-- Attention dropout

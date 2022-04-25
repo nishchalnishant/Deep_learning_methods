@@ -1,5 +1,0 @@
-- Batch Normalization
-- Layer normalization
-- Instance normalization
-- Spectral normalization
-- Group normalization

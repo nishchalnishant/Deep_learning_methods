@@ -1,4 +1,0 @@
-- self attention
-- Additive attension
-- Multi head attention
-- Scaled dot product attention

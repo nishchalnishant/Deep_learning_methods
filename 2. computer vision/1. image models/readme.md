@@ -1,99 +1,134 @@
-> Image models
+## Image models
 
-The multi layered, hierarchical structure of deep CNN, gives it the ability to extract low, mid, and
-high-level features.
+- The multi layered, hierarchical structure of deep CNN, gives it the ability to extract low, mid, and high-level features.
+- Image Models are methods that build representations of images for downstream tasks such as classification and object detection.
+- These are the most popular subcategory are convolutional neural networks
 
-In each of the following models it has several components --
+- In each of the following models it has several components
 
-Convulational layers
+**Convulational layers**
 
-- M N*N conv layers which multiplies the matrix of image with itself thus creating a final matrix of p*q*m ( if image was p*q)
+> M N*N conv layers which multiplies the matrix of image with itself thus creating a final matrix of p*q*m ( if image was p*q)
 
-- For a coloured image we use a*b*c conv layer thus we get a stack of 3d matrices joined together
+> For a coloured image we use a*b*c conv layer thus we get a stack of 3d matrices joined together
 
-Pooling layers
+**Pooling layers**
 
-- It averages a subarray can be max pooling or min pooling
+> It averages a subarray can be max pooling or min pooling
 
-Activations functions
+**Activations functions**
 
-- Lets and neuron pass if it passes threshold
+> Lets and neuron pass if it passes threshold
 
-Batch normalization
+**Batch normalization**
 
-- Normalizes the data on which training is happening to get good result
+> Normalizes the data on which training is happening to get good result.
 
-Dropout
+**Dropout**
 
-- Reduces overfitting
+> Reduces overfitting
 
-Fully connected layers
+**Fully connected layers**
 
-- Used to get final result which are connected to loss function to get the final classification result.
+> Used to get final result which are connected to loss function to get the final classification result.
 
-- Le-net -- 1998
+## Important image models
 
-- - Started using convnet
+**Le-net -- 1998**
 
-- - LeNet was the first CNN architecture, which not only reduced the number of parameters but was able to learn features from raw pixels automatically.
+- Started using convnet
 
-- Alex net - 2012
+- LeNet was the first CNN architecture, which not only reduced the number of parameters but was able to learn features from raw pixels automatically.
 
-- - AlexNet architecture consists of 5 convolutional layers, 3 max-pooling layers, 2 normalization layers, 2 fully connected layers, and 1 softmax layer.
+**Alex net - 2012**
 
-- - Each convolutional layer consists of convolutional filters and a nonlinear activation function ReLU.
+- AlexNet architecture consists of 5 convolutional layers, 3 max-pooling layers, 2 normalization layers, 2 fully connected layers, and 1 softmax layer.
 
-- - Max pooling layers are used.
+- Each convolutional layer consists of convolutional filters and a nonlinear activation function ReLU.
 
-- - Input size is fixed due to the presence of fully connected layers.
+- Max pooling layers are used.
 
-- - 60 million parameters.
+- Input size is fixed due to the presence of fully connected layers.
 
-- Vgg -- 2014
+- 60 million parameters.
 
-- - VGG16 has a total of 16 layers that has some weights.
+**Vgg -- 2014**
 
-- - Only Convolution and pooling layers are used.
+- VGG16 has a total of 16 layers that has some weights.
 
-- - Always uses a 3 x 3 Kernel for convolution. 20
+- Only Convolution and pooling layers are used.
 
-- - 2×2 size of the max pool.
+- Always uses a 3 x 3 Kernel for convolution. 20
 
-- - 138 million parameters.
+- 2×2 size of the max pool.
 
-- - Trained on ImageNet data.
+- 138 million parameters.
 
-- - It has an accuracy of 92.7%.
+- Trained on ImageNet data.
 
-- - Another version that is VGG 19, has a total of 19 layers with weights.
+- It has an accuracy of 92.7%.
 
-- - It is a very good Deep learning architecture for benchmarking on any particular task.
+- Another version that is VGG 19, has a total of 19 layers with weights.
 
-- - The pre-trained networks for VGG is made open-source, so it can be commonly used out of the box for various types of applications.
+- It is a very good Deep learning architecture for benchmarking on any particular task.
 
-- Google-net -- 2014
+- The pre-trained networks for VGG is made open-source, so it can be commonly used out of the box for various types of applications.
 
-- - GoogleNet Architecture is 22 layers deep, with 27 pooling layers included.
+**Google-net -- 2014**
 
-- - There are 9 inception modules stacked linearly in total.
+- GoogleNet Architecture is 22 layers deep, with 27 pooling layers included.
 
-- - The ends of the inception modules are connected to the global average pooling layer.
+- There are 9 inception modules stacked linearly in total.
 
-- Resnet -- 2015
+- The ends of the inception modules are connected to the global average pooling layer.
 
-- - ResNet uses a technique called "residual mapping" to combat this issue.
+**Resnet -- 2015**
 
-- - Instead of hoping that every few stacked layers directly fit a desired underlying mapping, the Residual Network explicitly lets these layers fit a residual mapping.
+- ResNet uses a technique called "residual mapping" to combat this issue.
 
-- Inception v3 -- 2015
+- Instead of hoping that every few stacked layers directly fit a desired underlying mapping, the Residual Network explicitly lets these layers fit a residual mapping.
 
-- - focuses on burning less computational power by modifying the previous Inception architectures.
+**Inception v3 -- 2015**
 
-- - computationally efficient, both in terms of the number of parameters generated by the network and the economical cost incurred
+- focuses on burning less computational power by modifying the previous Inception architectures.
 
-- Dense net -- 2016
-- Mobile net v1,v2,v3 -- 2018
-- Dark net -53 -- 2018
-- Efficient net v0-v7 --2018
+- computationally efficient, both in terms of the number of parameters generated by the network and the economical cost incurred
+
+**Dense net -- 2016**
+
+- DenseNet is quite similar to ResNet with some fundamental differences. ResNet uses an additive method (+) that merges the previous layer (identity) with the future layer, whereas DenseNet concatenates the output of the previous layer with the future layer.
+
+- developed specifically to improve the declined accuracy caused by the vanishing gradient in high-level neural networks.
+
+- The DenseNet has different versions, like DenseNet-121, DenseNet-160, DenseNet-201, etc. The numbers denote the number of layers in the neural network. The number 121 is computed as follows:
+  5+2*(6+12+24+16)=121
+  5 - convolution and pooling layer
+  3 - Transition layer(6,12,24)
+  1 - Classification layer
+  2 - dense block(1*1 and 3\*3 conv)
+
+https://www.pluralsight.com/guides/introduction-to-densenet-with-tensorflow
+
+**Mobile net v1,v2,v3 -- 2018**
+
+- MobileNet is a convolutional neural network architecture that seeks to perform well on mobile devices.
+- It is based on an inverted residual structure where the residual connections are between the bottleneck layers.
+- The intermediate expansion layer uses lightweight depthwise convolutions to filter features as a source of non-linearity.
+- As a whole, the architecture of MobileNetV2 contains the initial fully convolution layer with 32 filters, followed by 19 residual bottleneck layers.
+
+**Dark net -53 -- 2018**
+
+- Darknet-53 is a convolutional neural network that acts as a backbone for the YOLOv3 object detection approach.
+- The improvements upon its predecessor Darknet-19 include the use of residual connections, as well as more layers
+
+**Efficient net v0-v7 --2018**
+
+https://towardsdatascience.com/complete-architectural-details-of-all-efficientnet-models-5fd5b736142
+
+https://analyticsindiamag.com/implementing-efficientnet-a-powerful-convolutional-neural-network/
+
+- EfficientNet model was proposed by Mingxing Tan and Quoc V. Le of Google Research, Brain team in their research paper ‘EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks’.
+
+- EfficientNet is a convolutional neural network architecture and scaling method that uniformly scales all dimensions of depth/width/resolution using a compound coefficient.
 
 ![Development of image models](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/Screenshot%202021-09-15%20134934.png)
