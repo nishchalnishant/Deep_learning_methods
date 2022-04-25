@@ -370,7 +370,7 @@
 - P value -- Probability of a test statistics being contrary to the null hypothesis.
 - Confidence interval -- Test statistics between or outside of the confidence interval
 
-Error --
+> Error --
 
 - Type 1 -- Reject a null hypothesis that is true
 - Type 2 -- Not reject a null hypothesis that is false.
