@@ -62,7 +62,6 @@
 
 - Also known as airthemetic mean or average.
 - It can be expressed as fraction of the sum of obervations and number of observations.
-  <img src="https://latex.codecogs.com/svg.image?m=\tfrac{\sum&space;X{i}}{n}" title="https://latex.codecogs.com/svg.image?m=\tfrac{\sum X{i}}{n}" />
 
 **_Weighted mean_**
 
@@ -78,32 +77,34 @@
 
 **_Robust_**
 
-- Not sensitive to extreme values.
+- ML model not sensitive to extreme values.
 
 **_Outlier_**
 
 - A data value that is very different from most of the data.
+- Ex -- age excceing 130
 
 ## Measures of spread --
 
 **_Range_** --
 
-- difference between the largest and smallest point in your data (max-min).
+- Difference between the largest and smallest point in your data (max-min).
 
 **_Percentiles_** --
 
-- measure used in statistics indicating the value below which a given percentage of observation in a group of observations falls. for example, the 20th percentile is a value below which 20 per cent of data falls.
+- Measure used in statistics indicating the value below which a given percentage of observation in a group of observations falls.
+- For example, the 20th percentile is a value below which 20 per cent of data falls.
 
 **_Quartiles_** --
 
-- values that divide a list of numbers into quarters. the steps to find the quartile is.
+- Values that divide a list of numbers into quarters. the steps to find the quartile is.
 - Put the list of numbers in order
 - Then cut the list into 4 equal parts
 - The quartiles are at the cuts
 
 **_Interquartile range_** --
 
-- measure of dispersion between upper(75th) and lower(25th) Quartiles.
+- Measure of dispersion between upper(75th) and lower(25th) Quartiles.
 - It is a very important term in statistics that is used in most calculations and data preprocessing like dealing with outliers.
 
 ## KEY TERMS FOR VARIABILITY METRICS
@@ -114,8 +115,8 @@
 
 **_Mean absolute deviation_** --
 
-- absolute deviation from the mean
-- describes the variation in the data set.
+- Absolute deviation from the mean
+- Describes the variation in the data set.
 
 **_Median absolute deviation from the median_**
 
@@ -151,7 +152,8 @@
 - A plot of the frequency table with the bins on the x-axis and the count (or proportion) on the y-axis.
 
 **_Density plot_**
-A smoothed version of the histogram, often based on a kernal density estimate.
+
+- A smoothed version of the histogram, often based on a kernal density estimate.
 
 ## Data and Sampling Distributions --
 
@@ -184,7 +186,7 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 **_Central Limit Theorem_**
 
 - It says that the means drawn from multiple samples will resemble the familiar bell-shaped normal curve (see “Normal Distribution”), even if the source population is not normally distributed, provided that the sample size is large enough and the departure of the data from normality is not too great.
-- allows normal-approximation formulas like the t-distribution to be used in calculating sampling distributions for inference—that is, confidence intervals and hypothesis tests.
+- Allows normal-approximation formulas like the t-distribution to be used in calculating sampling distributions for inference—that is, confidence intervals and hypothesis tests.
 
 **_Standard Error_**
 
@@ -209,9 +211,9 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 
 **_Probability density function_**
 
-- probability density function (PDF) is used to define the random variable’s probability coming within a distinct range of values, as opposed to taking on any one value.
+- Probability density function (PDF) is used to define the random variable’s probability coming within a distinct range of values, as opposed to taking on any one value.
 - The function explains the probability density function of normal distribution and how mean and deviation exists.
-- defines the probability function representing the density of a continuous random variable lying between a specific range of values.
+- Defines the probability function representing the density of a continuous random variable lying between a specific range of values.
   https://byjus.com/maths/probability-density-function/
 
 **_Cumulative distributive function_**
@@ -241,13 +243,17 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 
 - Distribution in form of a bell curve and most of the datasets in machine learning follow a normal distribution and if not then we try to transform it into normal distribution and many machine learning algorithms work very well on this distribution .
 - In a normal distribution , 68% of the data lies within one standad deviation of the mean, and 95% lies within two standard deviations.
-- A standard normal distribution is one in which the units on the x-axis are expressed in terms of standard deviations away from the mean. To compare data to a standard normal distribution, you subtract the mean then divide by the standard deviation; this is also called normalization or standardization.
-- A QQ-Plot is used to visually determine how close a sample is to the normal distribution. The QQ-Plot orders the z-scores from low to high, and plots each value’s z-score on the y-axis; the x-axis is the corresponding quantile of a normal distribution for that value’s rank. Since the data is normalized, the units correspond to the number of standard deviations away of the data from the mean.
+- A standard normal distribution is one in which the units on the x-axis are expressed in terms of standard deviations away from the mean.
+- To compare data to a standard normal distribution, you subtract the mean then divide by the standard deviation; this is also called normalization or standardization.
+- A QQ-Plot is used to visually determine how close a sample is to the normal distribution.
+- The QQ-Plot orders the z-scores from low to high, and plots each value’s z-score on the y-axis; the x-axis is the corresponding quantile of a normal distribution for that value’s rank.
+- Since the data is normalized, the units correspond to the number of standard deviations away of the data from the mean.
 
 **_Long-Tailed Distributions_**
 
-- data is generally not normallydistributed.
-- Sometimes, the distribution is highly skewed , the tails of a distribution correspond to the extreme values (small and large). Long tails, and guarding against them, are widely recognized in practical work.
+- Data is generally not normallydistributed.
+- Sometimes, the distribution is highly skewed , the tails of a distribution correspond to the extreme values (small and large).
+- Long tails, and guarding against them, are widely recognized in practical work.
 
 **_t-Distribution_**
 
@@ -261,7 +267,7 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 - The binomial distribution is the frequency distribution of the number of successes (x) in a given number of trials (n) with specified probability (p) of success in each trial.
 - There is a family of binomial distributions, depending on the values of x, n, and p.
 - Binomial outcomes are important to model, since they represent, among other things, fundamental decisions (buy or don’t buy, click or don’t click, survive or die, etc.).
-- mean of a binomial distribution is n\*p ; you can also think of this as the expected number of successes in n trials, for success probability = p.
+- Mean of a binomial distribution is n\*p ; you can also think of this as the expected number of successes in n trials, for success probability = p.
 - The variance is n\*p(1-p). With a large enough number of trials (particularly when p is close to 0.50), the binomial distribution is virtually indistinguishable from the normal distribution.
 - A binomial trial is an experiment with two possible outcomes: one with probability p and the other with probability 1 – p.
 - With large n, and provided p is not too close to 0 or 1, the binomial distribution can be approximated by the normal distribution.
@@ -277,17 +283,14 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 - The frequency distribution of the number of events in sampled units of time or space.
 - Poisson distribution tells us the distribution of events per unit of time or space when we sample many such units.
 - It is useful when addressing queuing questions like “How much capacity do we need to be 95% sure of fully processing the internet traffic that arrives on a server in any 5- second period?
-- key parameter in a Poisson distribution is lambda. This is the mean number of events that occurs in a specified interval of time or space.
+- Key parameter in a Poisson distribution is lambda. This is the mean number of events that occurs in a specified interval of time or space.
 - The variance for a Poisson distribution is also lambda.
 - The Poisson distribution is used to describe discrete quantitative data such as counts in which the population size n is large, the probability of an individual event is small, but the expected number of events, n, is moderate (say five or more).
 - Typical examples are the number of deaths in a town from a particular disease per day, or the number of admissions to a particular hospital.
 - Poisson distribution considers following assumptions;
-
-The success probability for a short span is equal to success probability for a long period of time.
-
-The success probability in a duration equals to zero as the duration becomes smaller.
-
-A successful event can’t impact the result of another successful event
+- The success probability for a short span is equal to success probability for a long period of time.
+- The success probability in a duration equals to zero as the duration becomes smaller.
+- A successful event can’t impact the result of another successful event
 
 **_Exponential distribution_**
 
@@ -298,8 +301,11 @@ A successful event can’t impact the result of another successful event
 **_Weibull distribution_**
 
 - A generalized version of the exponential, in which the event rate is allowed to shift over time.
-- If the event rate changes over the time of the interval, the exponential (or Poisson) distributions are no longer useful. This is likely to be the case in mechanical failure—the risk of failure increases as time goes by. The Weibull distribution is an extension of the exponential distribution, in which the event rate is allowed to change, as specified by a shape parameter, beta. If beta > 1, the probability of an event increases over time, if beta < 1, it decreases.
-- Because the Weibull distribution is used with time-to-failure analysis instead of event rate, the second parameter is expressed in terms of characteristic life, rather than in terms of the rate of events per interval. The symbol used is , the Greek letter eta. It is also called the scale parameter.
+- If the event rate changes over the time of the interval, the exponential (or Poisson) distributions are no longer useful.
+- This is likely to be the case in mechanical failure—the risk of failure increases as time goes by.
+- The Weibull distribution is an extension of the exponential distribution, in which the event rate is allowed to change, as specified by a shape parameter, beta. If beta > 1, the probability of an event increases over time, if beta < 1, it decreases.
+- Because the Weibull distribution is used with time-to-failure analysis instead of event rate, the second parameter is expressed in terms of characteristic life, rather than in terms of the rate of events per interval.
+- The symbol used is , the Greek letter eta. It is also called the scale parameter.
 
 **_Bernoulli_**
 
@@ -330,8 +336,9 @@ A successful event can’t impact the result of another successful event
 
 - A/B test is an experiment with two groups to establish which of two treatments, products, procedures, or the like is superior.
 - A/B tests are common in web design and marketing, since results are so readily measured.
-- Some examples of A/B testing include: Testing two soil treatments to determine which produces better seedgermination
-  Testing two therapies to determine which suppresses cancer more effectively
+  > Some examples of A/B testing include:
+  - Testing two soil treatments to determine which produces better seedgermination
+  - Testing two therapies to determine which suppresses cancer more effectively
 
 **_Hypothesis testing_**
 
@@ -341,21 +348,23 @@ A successful event can’t impact the result of another successful event
 - Alternate hypothesis (H_1) -- is the statement created by researchers when they speculate upon the outcome of a research or experiment. It states that there is a statistically significant difference or relationship between variables.
 - One-way test -- Hypothesis test that counts chance results only in one direction.
 - Two-way test -- Hypothesis test that counts chance results in two directions
-- Example:
-  H0: The average BMI of boys and girls in a class is the same
 
-  H1: The average BMI of boys and girls in a class is not the same
+  > Example:
+
+  - H0: The average BMI of boys and girls in a class is the same
+
+  - H1: The average BMI of boys and girls in a class is not the same
 
 - To determine whether a finding is statistically significant, you need to interpret the p-value.
 - It is common to compare the p-value to a threshold value called the significance level.
 
-It often sets the level of significance to 5% or 0.05.
+- It often sets the level of significance to 5% or 0.05.
 
-If the p-value > 0.05 - Accept the null hypothesis.
+- If the p-value > 0.05 - Accept the null hypothesis.
 
-If the p-value < 0.05 - Reject the null hypothesis.
+- If the p-value < 0.05 - Reject the null hypothesis.
 
-Three Hypothesis testing methods --
+> Three Hypothesis testing methods --
 
 - Classical -- compare a test statistics to a critical value.
 - P value -- Probability of a test statistics being contrary to the null hypothesis.
