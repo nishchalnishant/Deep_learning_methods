@@ -1,8 +1,8 @@
 # Important statistical terms used in machine learning
 
-# Key terms for Data typs --
+## Key terms for Data typs --
 
-**Qualitative data**
+**_Qualitative data_**
 
 - Can't be expressed as a number and can't be measured.
 - Consists of words, pictures and symbols, not numbers.
@@ -20,7 +20,7 @@
 - Showes where a number is in order .
 - Data which is placed into some kind of order by their position on a scale, these may indicate superiority.
 
-**Quantative data**
+**_Quantative data_**
 
 - Can be expressed as numbers ,measured by numerical variables.
 - Easily amenable to statistical manipulation and can be represented by Graphs.
@@ -29,7 +29,8 @@
 **_Discrete Data_**
 
 - Data that can take on only integer values , such as counts.
-  **_Continous Data_**
+
+**_Continous Data_**
 
 - Data that can take on any value in an interval.
 
