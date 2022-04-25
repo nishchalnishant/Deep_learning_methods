@@ -19,6 +19,7 @@
 
 - Showes where a number is in order .
 - Data which is placed into some kind of order by their position on a scale, these may indicate superiority.
+- Ex - education level (“high school”,”BS”,”MS”,”PhD”)
 
 **_Quantative data_**
 
@@ -29,6 +30,7 @@
 **_Discrete Data_**
 
 - Data that can take on only integer values , such as counts.
+- Only a limited number of values is possible.
 
 **_Continous Data_**
 
@@ -42,6 +44,7 @@
 **_Binary_**
 
 - A special case of categorical data with just two categories of values [True/False].
+- Ex - medical test has two possible outcomes: positive or negative
 
 ## KEY TERMS FOR RECTANGULAR DATA
 
@@ -59,6 +62,7 @@
 
 - Also known as airthemetic mean or average.
 - It can be expressed as fraction of the sum of obervations and number of observations.
+  <img src="https://latex.codecogs.com/svg.image?m=\tfrac{\sum&space;X{i}}{n}">
 
 **_Weighted mean_**
 
