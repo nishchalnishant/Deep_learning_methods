@@ -2,7 +2,7 @@
 
 # Statistical concepts
 
-**Key terms for Data types**
+**_Key terms for Data types_**
 
 - Qualitative data
 - Nominal Data
@@ -12,12 +12,12 @@
 - Categorical data
 - Binary
 
-**KEY TERMS FOR RECTANGULAR DATA**
+**_KEY TERMS FOR RECTANGULAR DATA_**
 
 - Data frame
 - Feature
 
-**Measures of central tendency** --
+**_Measures of central tendency_** --
 
 - Mean
 - Weighted mean
@@ -26,14 +26,14 @@
 - Robust
 - Outlier
 
-**Measures of spread** --
+**\_Measures of sprea_d** --
 
 - Range
 - Percentiles
 - Quartiles
 - Interquartile range
 
-**KEY TERMS FOR VARIABILITY METRICS**
+**_KEY TERMS FOR VARIABILITY METRICS_**
 
 - Deviations
 - Mean absolute deviation
@@ -42,13 +42,13 @@
 - Standard deviation
 - Median absolute deviation
 
-**KEY TERMS FOR EXPLORING THE DISTRIBUTION**
+**_KEY TERMS FOR EXPLORING THE DISTRIBUTION_**
 
 - Boxplot
 - Frequency table
 - Histogram
 
-**Data and Sampling Distributions**
+**_Data and Sampling Distributions_**
 
 - Population
 - Sample
@@ -68,14 +68,14 @@
 - Skewness
 - Kurtosis
 
-**Distributions**
+**_Distributions_**
 
 - Normal distribution
 - Long-Tailed Distributions
 - t-Distribution
 - Binomial Distribution
 
-**Poisson and Related Distributions**
+**_Poisson and Related Distributions_**
 
 - Lambda
 - Poisson distribution
@@ -86,7 +86,7 @@
 - Normal/Gaussian
 - Exponential
 
-**Statistical Experiments and Significance Testing**
+**_Statistical Experiments and Significance Testing_**
 
 - A/B Testing
 - Hypothesis testing
@@ -95,12 +95,12 @@
 - Chi-Square test
 - Concetps
 
-# Supervised learning - Learning where we have data as well as labels corresponding to them
+# Supervised learning - training ML models on data with labels
 
 - Regresssion - trying to predict a number
 - Classification - trying to predict a class
 
-# Unsupervised learning - Learning where we only have the data.
+# Unsupervised learning - learning where we only have the data.
 
-- Clusturing - dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups
-- Dimensionality Reduction - techniques that reduce the number of input variables in a dataset
+- Clusturing
+- Dimensionality Reduction
