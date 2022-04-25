@@ -41,218 +41,218 @@
 
 **_Binary_**
 
-- A special case of categorical data with just two categories of values[True/False].
+- A special case of categorical data with just two categories of values [True/False].
 
-# KEY TERMS FOR RECTANGULAR DATA
+## KEY TERMS FOR RECTANGULAR DATA
 
-**Data frame**
+**_Data frame_**
 
 - Rectangular data (like a spreadsheet) is the basic data structure for statistical and machine learning models.
 
-**Feature**
+**_Feature_**
 
 - A column in the table is commonly referred to as a feature.
 
-# Measures of central tendency --
+## Measures of central tendency --
 
-**Mean**
+**_Mean_**
 
 - Also known as airthemetic mean or average.
 - It can be expressed as fraction of the sum of obervations and number of observations.
 
-**Weighted mean**
+**_Weighted mean_**
 
 - The sum of all values times a weight divided by the sum of the weights.
 
-**Median**
+**_Median_**
 
 - Value seperating the upper half with the lower half of the sample or population.
 
-**Mode** --
+**_Mode_** --
 
 - Represents the most frequent observation in a numeric variable.
 
-**Robust**
+**_Robust_**
 
 - Not sensitive to extreme values.
 
-**Outlier**
+**_Outlier_**
 
 - A data value that is very different from most of the data.
 
-# Measures of spread --
+## Measures of spread --
 
-**Range** --
+**_Range_** --
 
 - difference between the largest and smallest point in your data (max-min).
 
-**Percentiles** --
+**_Percentiles_** --
 
 - measure used in statistics indicating the value below which a given percentage of observation in a group of observations falls. for example, the 20th percentile is a value below which 20 per cent of data falls.
 
-**Quartiles** --
+**_Quartiles_** --
 
 - values that divide a list of numbers into quarters. the steps to find the quartile is.
 - Put the list of numbers in order
 - Then cut the list into 4 equal parts
 - The quartiles are at the cuts
 
-**Interquartile range** --
+**_Interquartile range_** --
 
 - measure of dispersion between upper(75th) and lower(25th) Quartiles.
 - It is a very important term in statistics that is used in most calculations and data preprocessing like dealing with outliers.
 
-# KEY TERMS FOR VARIABILITY METRICS
+## KEY TERMS FOR VARIABILITY METRICS
 
-**Deviations** --
+**_Deviations_** --
 
 - The difference between the observed values and the estimate of location.
 
-**Mean absolute deviation** --
+**_Mean absolute deviation_** --
 
 - absolute deviation from the mean
 - describes the variation in the data set.
 
-**Median absolute deviation from the median**
+**_Median absolute deviation from the median_**
 
 - The median of the absolute value of the deviations from the median.
 
-**Variance** --
+**_Variance_** --
 
 - Measure how far is data point is from the mean, only the difference from MAD and variance is we take square here.
 - Variance is computed by finding the difference between each data point and mean, squaring them, summing them up, and take the average of all those numbers.
 
-**Standard deviation** --
+**_Standard deviation_** --
 
 - The standard deviation is simply the square root of variance so we get again the value in the same measurement.
 - Also measures dispersion around the mean but in the same unit as the values.
 - Sigma is used to denote std. deviation of the populations and s is used as the standard deviation of the sample.
 
-**Median absolute deviation** --
+**_Median absolute deviation_** --
 
 - Median of all the numbers obtained from subtracting and calculating the absolute value of every observation with the median.
 
-# KEY TERMS FOR EXPLORING THE DISTRIBUTION --
+## KEY TERMS FOR EXPLORING THE DISTRIBUTION --
 
-**Boxplot**
+**_Boxplot_**
 
 - A plot introduced by Tukey as a quick way to visualize the distribution of data.
 
-**Frequency table**
+**_Frequency table_**
 
 - A tally of the count of numeric data values that fall into a set of intervals (bins).
 
-**Histogram**
+**_Histogram_**
 
 - A plot of the frequency table with the bins on the x-axis and the count (or proportion) on the y-axis.
 
-**Density plot**
+**_Density plot_**
 A smoothed version of the histogram, often based on a kernal density estimate.
 
-# Data and Sampling Distributions --
+## Data and Sampling Distributions --
 
-**Population**
+**_Population_**
 
 - Entire group one desires information about.
 - Ex -- population studying the voters in an election.
 
-**Sample**
+**_Sample_**
 
 - Subset of the population taken when entire population is too large to tanalyze its charachteristics.
 - Ex -- first time voters in an election.
 
-**Random sampling**
+**_Random sampling_**
 
 - Drawing elements into a sample at random.
 
-**Stratified sampling**
+**_Stratified sampling_**
 
 - Dividing the population into strata and randomly sampling from each strata.
 
-**Simple random sample**
+**_Simple random sample_**
 
 - The sample that results from random sampling without stratifying the population.
 
-**Sample bias**
+**_Sample bias_**
 
 - A sample that misrepresents the population.
 
-**Central Limit Theorem**
+**_Central Limit Theorem_**
 
 - It says that the means drawn from multiple samples will resemble the familiar bell-shaped normal curve (see “Normal Distribution”), even if the source population is not normally distributed, provided that the sample size is large enough and the departure of the data from normality is not too great.
 - allows normal-approximation formulas like the t-distribution to be used in calculating sampling distributions for inference—that is, confidence intervals and hypothesis tests.
 
-**Standard Error**
+**_Standard Error_**
 
 - The standard error is a single metric that sums up the variability in the sampling distribution for a statistic.
 - The standard error can be estimated using a statistic based on the standard deviation s of the sample values, and the sample size n
 
-**Bootstrap sample**
+**_Bootstrap sample_**
 
 - A sample taken with replacement from an observed data set.
 
-**Resampling**
+**_Resampling_**
 
 - The process of taking repeated samples from observed data; includes both bootstrap and permutation (shuffling) procedures.
 
-**Confidence level**
+**_Confidence level_**
 
 - The percentage of confidence intervals, constructed in the same way from the same population, expected to contain the statistic of interest.
 
-**Interval endpoints**
+**_Interval endpoints_**
 
 - The top and bottom of the confidence interval.
 
-**Probability density function**
+**_Probability density function_**
 
 - probability density function (PDF) is used to define the random variable’s probability coming within a distinct range of values, as opposed to taking on any one value.
 - The function explains the probability density function of normal distribution and how mean and deviation exists.
 - defines the probability function representing the density of a continuous random variable lying between a specific range of values.
   https://byjus.com/maths/probability-density-function/
 
-**cumulative distributive function**
+**_Cumulative distributive function_**
 
 - The Cumulative Distribution Function (CDF), of a real-valued random variable X, evaluated at x, is the probability function that X will take a value less than or equal to x.
 - It is used to describe the probability distribution of random variables in a table
 
-**Standard error**
+**_Standard error_**
 
 - An estimate of the standard deviation of the sampaling distribution the set of all the samples of size n that can be taken from a population.
 - Reflects the extent to which a statistic changes from sample to sample.
 
-**Skewness** --
+**_Skewness_** --
 
 - Measure of the symmetry of distribution that you plot in form of a histogram.
 - A distribution is symmetrical when the proportion of data at an equal distance from the mean (or median) is equal.
 - If the values extend to the right, it is right-skewed, and if the values extend left, it is left-skewed.
 
-**Kurtosis** -
+**_Kurtosis_** -
 
 - Kurtosis in statistics is used to check whether the tails of a given distribution have extreme values.
 - It also represents the shape of a probability distribution.
 
-# Distributions
+## Distributions
 
-**Normal distribution** --
+**_Normal distribution_** --
 
 - Distribution in form of a bell curve and most of the datasets in machine learning follow a normal distribution and if not then we try to transform it into normal distribution and many machine learning algorithms work very well on this distribution .
 - In a normal distribution , 68% of the data lies within one standad deviation of the mean, and 95% lies within two standard deviations.
 - A standard normal distribution is one in which the units on the x-axis are expressed in terms of standard deviations away from the mean. To compare data to a standard normal distribution, you subtract the mean then divide by the standard deviation; this is also called normalization or standardization.
 - A QQ-Plot is used to visually determine how close a sample is to the normal distribution. The QQ-Plot orders the z-scores from low to high, and plots each value’s z-score on the y-axis; the x-axis is the corresponding quantile of a normal distribution for that value’s rank. Since the data is normalized, the units correspond to the number of standard deviations away of the data from the mean.
 
-**Long-Tailed Distributions**
+**_Long-Tailed Distributions_**
 
 - data is generally not normallydistributed.
 - Sometimes, the distribution is highly skewed , the tails of a distribution correspond to the extreme values (small and large). Long tails, and guarding against them, are widely recognized in practical work.
 
-**t-Distribution**
+**_t-Distribution_**
 
 - t-distribution is a normally shaped distribution, but a bit thicker and longer on the tails. It is used extensively in depicting distributions of sample statistics.
 - Distributions of sample means are typically shaped like a t-distribution.
 - The t-distribution is actually a family of distributions resembling the normal distribution, but with thicker tails.
 - It is widely used as a reference basis for the distribution of sample means, differerences between two sample means, regression parameters, and more.
 
-**Binomial Distribution**
+**_Binomial Distribution_**
 
 - The binomial distribution is the frequency distribution of the number of successes (x) in a given number of trials (n) with specified probability (p) of success in each trial.
 - There is a family of binomial distributions, depending on the values of x, n, and p.
@@ -262,13 +262,13 @@ A smoothed version of the histogram, often based on a kernal density estimate.
 - A binomial trial is an experiment with two possible outcomes: one with probability p and the other with probability 1 – p.
 - With large n, and provided p is not too close to 0 or 1, the binomial distribution can be approximated by the normal distribution.
 
-# Poisson and Related Distributions
+## Poisson and Related Distributions
 
-**Lambda**
+**_Lambda_**
 
 - The rate (per unit of time or space) at which events occur.
 
-**Poisson distribution**
+**_Poisson distribution_**
 
 - The frequency distribution of the number of events in sampled units of time or space.
 - Poisson distribution tells us the distribution of events per unit of time or space when we sample many such units.
@@ -285,56 +285,55 @@ The success probability in a duration equals to zero as the duration becomes sma
 
 A successful event can’t impact the result of another successful event
 
-**Exponential distribution**
+**_Exponential distribution_**
 
 - The frequency distribution of the time or distance from one event to the next event.
 - Using the same parameter that we used in the Poisson distribution, we can also model the distribution of the time between events: time between visits to a website or between cars arriving at a toll plaza.
 - It is also used in engineering to model time to failure, and in process management to model,
 
-**Weibull distribution**
+**_Weibull distribution_**
 
 - A generalized version of the exponential, in which the event rate is allowed to shift over time.
 - If the event rate changes over the time of the interval, the exponential (or Poisson) distributions are no longer useful. This is likely to be the case in mechanical failure—the risk of failure increases as time goes by. The Weibull distribution is an extension of the exponential distribution, in which the event rate is allowed to change, as specified by a shape parameter, beta. If beta > 1, the probability of an event increases over time, if beta < 1, it decreases.
 - Because the Weibull distribution is used with time-to-failure analysis instead of event rate, the second parameter is expressed in terms of characteristic life, rather than in terms of the rate of events per interval. The symbol used is , the Greek letter eta. It is also called the scale parameter.
 
-**Bernoulli**
+**_Bernoulli_**
 
-- - Bernoulli distribution has only two possible outcomes, namely 1 (success) and 0 (failure), and a single trial.
-- - So the random variable X which has a Bernoulli distribution can take value 1 with the probability of success, say p, and the value 0 with the probability of failure, say q or 1-p.
+- Bernoulli distribution has only two possible outcomes, namely 1 (success) and 0 (failure), and a single trial.
+- So the random variable X which has a Bernoulli distribution can take value 1 with the probability of success, say p, and the value 0 with the probability of failure, say q or 1-p.
 
-**continous**
+**_continous_**
 
-- Uniform
-- - Uniform distribution can either be discrete or continuous where each event is equally likely to occur.
-- - It has a constant probability constructing a rectangular distribution.
-- - In this type of distribution, an unlimited number of outcomes will be possible and all the events have the same probability, similar to Bernoulli’s distribution.
+> Uniform
 
-- Normal/Gaussian
+- Uniform distribution can either be discrete or continuous where each event is equally likely to occur.
+- It has a constant probability constructing a rectangular distribution.
+- In this type of distribution, an unlimited number of outcomes will be possible and all the events have the same probability, similar to Bernoulli’s distribution.
 
-- - Being a continuous distribution, the normal distribution is most commonly used in data science.
-- - A very common process of our day to day life belongs to this distribution- income distribution, average employees report, average weight of a population, etc.
+> Normal/Gaussian
 
-- Exponential
-- - Like the poisson distribution, exponential distribution has the time element; it gives the probability of a time duration before an event takes place.
-- - Exponential distribution is used for survival analysis, for example, life of an air conditioner, expected life of a machine,and length of time between metro arrivals.
-- Gamma
+- Being a continuous distribution, the normal distribution is most commonly used in data science.
+- A very common process of our day to day life belongs to this distribution- income distribution, average employees report, average weight of a population, etc.
 
-# Statistical Experiments and Significance Testing
+> Exponential
 
-**A/B Testing**
+- Like the poisson distribution, exponential distribution has the time element; it gives the probability of a time duration before an event takes place.
+- Exponential distribution is used for survival analysis, for example, life of an air conditioner, expected life of a machine,and length of time between metro arrivals.
+
+## Statistical Experiments and Significance Testing
+
+**_A/B Testing_**
 
 - A/B test is an experiment with two groups to establish which of two treatments, products, procedures, or the like is superior.
 - A/B tests are common in web design and marketing, since results are so readily measured.
-- Some examples of A/B testing include:
-  Testing two soil treatments to determine which produces better seedgermination
+- Some examples of A/B testing include: Testing two soil treatments to determine which produces better seedgermination
   Testing two therapies to determine which suppresses cancer more effectively
 
-**Hypothesis testing**
+**_Hypothesis testing_**
 
 - Uses statistical tests to determine if a hypothesis is true.
-- hypothesis test assumes that the null hypothesis is true, creates a “null model” (a probability model), and tests whether the effect you observe is a reasonable outcome of that model.
-- Null hypothesis (H_0) -- is the statement that there is no statistically significant difference or relationship between variables. A null hypothesis is a logical construct embodying the notion that nothing
-  special has happened, and any effect you observe is due to random chance.
+- Hypothesis test assumes that the null hypothesis is true, creates a “null model” (a probability model), and tests whether the effect you observe is a reasonable outcome of that model.
+- Null hypothesis (H_0) -- is the statement that there is no statistically significant difference or relationship between variables. A null hypothesis is a logical construct embodying the notion that nothing special has happened, and any effect you observe is due to random chance.
 - Alternate hypothesis (H_1) -- is the statement created by researchers when they speculate upon the outcome of a research or experiment. It states that there is a statistically significant difference or relationship between variables.
 - One-way test -- Hypothesis test that counts chance results only in one direction.
 - Two-way test -- Hypothesis test that counts chance results in two directions
@@ -363,7 +362,7 @@ Error --
 - Type 1 -- Reject a null hypothesis that is true
 - Type 2 -- Not reject a null hypothesis that is false.
 
-**Interpreting the Results**
+**_Interpreting the Results_**
 
 | Test Method | Compare                                          | Result                            |
 | ----------- | ------------------------------------------------ | --------------------------------- |
@@ -371,12 +370,6 @@ Error --
 | Classical   | test statistic < critical value(i.e. F < F crit) | Cannot reject the null hypothesis |
 | p value     | p value < α                                      | Reject the null hypothesis        |
 | p value     | p value > α                                      | Cannot reject the null hypothesis |
-
-**T-test**
-
-**ANOVA**
-
-**Chi-Square test**
 
 **Concetps**
 

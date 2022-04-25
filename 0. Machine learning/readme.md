@@ -24,7 +24,7 @@
 - Robust
 - Outlier
 
-**\_Measures of sprea_d** --
+**_Measures of spread_** --
 
 - Range
 - Percentiles
@@ -88,9 +88,6 @@
 
 - A/B Testing
 - Hypothesis testing
-- T-test
-- ANOVA
-- Chi-Square test
 - Concetps
 
 # Supervised learning - training ML models on data with labels
