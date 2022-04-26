@@ -1,7 +1,9 @@
 **About**
 
 - AdaGrad is a stochastic optimization method that adapts the learning rate to the parameters.
+
 - It performs smaller updates for parameters associated with frequently occurring features, and larger updates for parameters associated with infrequently occurring features.
+
 - In its update rule, Adagrad modifies the general learning rate at each time step for every parameter based on the past gradients
 
 **Advantages**

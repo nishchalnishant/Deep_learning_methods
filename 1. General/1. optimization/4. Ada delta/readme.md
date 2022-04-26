@@ -1,10 +1,10 @@
 # About
 
-- There are three problems with the Adagrad algorithm
+> There are three problems with the Adagrad algorithm
 
-- - The learning rate is monotonically decreasing.
-- - The learning rate in the late training period is very small.
-- - It requires manually setting a global initial learning rate.
+- The learning rate is monotonically decreasing.
+- The learning rate in the late training period is very small.
+- It requires manually setting a global initial learning rate.
 
 - AdaDelta is a stochastic optimization technique that allows for per-dimension learning rate method for SGD.
 - It is an extension of Adagrad that seeks to reduce its aggressive, monotonically decreasing learning rate.
