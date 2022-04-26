@@ -15,35 +15,35 @@
 
 - Three methods are used for the feature selection:
 
-1. **_Filters Methods_**
+### Filters Methods
 
 - In this method, the dataset is filtered, and a subset that contains only the relevant features is taken
 
-> Some common techniques of filters method are:
+**Some common techniques of filters method are:**
 
 - Correlation
 - Chi-Square Test
 - ANOVA
 - Information Gain, etc.
 
-2. **_ Wrappers Methods_**
+### Wrappers Methods
 
 - The wrapper method has the same goal as the filter method, but it takes a machine learning model for its evaluation.
 - In this method, some features are fed to the ML model, and evaluate the performance.
 - The performance decides whether to add those features or remove to increase the accuracy of the model.
 - This method is more accurate than the filtering method but complex to work.
 
-> Some common techniques of wrapper methods are:
+**Some common techniques of wrapper methods are:**
 
 - Forward Selection
 - Backward Selection
 - Bi-directional Elimination
 
-3. **_Embedded Methods:_**
+### Embedded Methods:
 
 - Embedded methods check the different training iterations of the machine learning model and evaluate the importance of each feature.
 
-> Some common techniques of Embedded methods are:
+**Some common techniques of Embedded methods are:**
 
 - LASSO
 - Elastic Net
@@ -54,7 +54,7 @@
 - Feature extraction is the process of transforming the space containing many dimensions into space with fewer dimensions.
 - This approach is useful when we want to keep the whole information but use fewer resources while processing the information.
 
-> Some common feature extraction techniques are:
+**Some common feature extraction techniques are:**
 
 - Principal Component Analysis
 - Linear Discriminant Analysis
