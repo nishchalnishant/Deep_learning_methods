@@ -15,7 +15,7 @@
 
 - Three methods are used for the feature selection:
 
-### Filters Methods
+### 1. Filters Methods
 
 - In this method, the dataset is filtered, and a subset that contains only the relevant features is taken
 
@@ -26,7 +26,7 @@
 - ANOVA
 - Information Gain, etc.
 
-### Wrappers Methods
+### 2. Wrappers Methods
 
 - The wrapper method has the same goal as the filter method, but it takes a machine learning model for its evaluation.
 - In this method, some features are fed to the ML model, and evaluate the performance.
@@ -39,7 +39,7 @@
 - Backward Selection
 - Bi-directional Elimination
 
-### Embedded Methods:
+### 3. Embedded Methods:
 
 - Embedded methods check the different training iterations of the machine learning model and evaluate the importance of each feature.
 
