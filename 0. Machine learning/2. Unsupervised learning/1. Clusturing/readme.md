@@ -8,29 +8,29 @@
 
 - This means their runtime increases as the square of the number of examples , denoted as in complexity notation. algorithms are not practical when the number of examples are in millions.
 
-- the k-means algorithm, which has a complexity of , meaning that the algorithm scales linearly with .
+- The k-means algorithm, which has a complexity of , meaning that the algorithm scales linearly with .
 
-> Types of Clustering
->
-> > Centroid-based Clustering
+> **Types of Clustering**
+
+> > **Centroid-based Clustering**
 
 - Centroid-based clustering organizes the data into non-hierarchical clusters, in contrast to hierarchical clustering defined below.
 - k-means is the most widely-used centroid-based clustering algorithm.
 - Centroid-based algorithms are efficient but sensitive to initial conditions and outliers.
 
-> > Density-based Clustering
+> > **Density-based Clustering**
 
 - Density-based clustering connects areas of high example density into clusters.
 - This allows for arbitrary-shaped distributions as long as dense areas can be connected.
 - These algorithms have difficulty with data of varying densities and high dimensions
 
-  > > Distribution-based Clustering
+> > **Distribution-based Clustering**
 
 - This clustering approach assumes data is composed of distributions.
 - As distance from the distribution's center increases, the probability that a point belongs to the distribution decreases.
 - The bands show that decrease in probability. When you do not know the type of distribution in your data, you should use a different algorithm.
 
-> > Hierarchical Clustering
+> > **Hierarchical Clustering**
 
 - Hierarchical clustering creates a tree of clusters. - Hierarchical clustering, not surprisingly, is well suited to hierarchical data, such as taxonomies
 
