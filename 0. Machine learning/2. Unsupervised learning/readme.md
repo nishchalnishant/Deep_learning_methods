@@ -20,7 +20,7 @@
 
 **Principal Components Analysis**
 
-- In case you want a higher-dimensional space. You need to select a basis for that space and only the 200 most important scores of that basis.
+- In case we want a higher-dimensional space. We need to select a basis for that space and only the 200 most important scores of that basis.
 - This base is known as a principal component. The subset you select constitute is a new space which is small in size compared to original space.
 - It maintains as much of the complexity of data as possible.
 

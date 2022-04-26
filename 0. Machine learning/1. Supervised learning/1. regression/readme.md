@@ -1,16 +1,8 @@
-**Use cases**
-
-- Population growth prediction
-- Advertising popularity prediction
-- Weather forecasting
-- Market forecasting
-- Estimating life expectancy
-
 ## Metrics that can be used for regression techniques --
 
-**mean absolute error (MAE)**
+\***\*Mean absolute error (MAE)\*\***
 
-- sum of all errors and divide them by a total number of observations.
+- Sum of all errors and divide them by a total number of observations.
 - MAE measures the average magnitude of the errors in a set of forecasts, without considering their direction.
 - It measures accuracy for continuous variables.
 - MAE is a linear score which means that all the individual differences are weighted equally in the average.
@@ -52,11 +44,13 @@
 - Assumes linear relationship between the input variables and single ouput variables .
 - There are various methods to fit the linear regression from the data , most common of which is Ordinary least squares.
 - We can fit the linear regression model using simple linear regression ,ordinary lelast squares, Gradient descent and regularizations (L1 lasso and L2 ridge)
-- Assumptions --
-  > variables should be measured at a continuous level
-  > Your data should have no significant outliers.
-  > Check for homoscedasticity — a statistical concept in which the variances along the best-fit linear-regression line remain similar all through that line.
-  > The residuals (errors) of the best-fit regression line follow normal distribution.
+
+> Assumptions --
+
+- variables should be measured at a continuous level
+- The data should have no significant outliers.
+- Check for homoscedasticity — a statistical concept in which the variances along the best-fit linear-regression line remain similar all through that line.
+- The residuals (errors) of the best-fit regression line follow normal distribution.
 
 **Support vector machines**
 
@@ -80,15 +74,15 @@
 - Initially, whole training data is considered as root.
 - Records are distributed recursively on the basis of the attribute value.
 
-- basic terminology used with decision trees:
+> Basic terminology used with decision trees:
 
-- - Root Node: It represents entire population or sample and this further gets divided into two or more homogeneous sets.
-- - Splitting: It is a process of dividing a node into two or more sub-nodes.
-- - Decision Node: When a sub-node splits into further sub-nodes, then it is called decision node.
-- - Leaf/Terminal Node: Nodes do not split is called Leaf or Terminal node.
-- - Pruning: When we remove sub-nodes of a decision node, this process is called pruning. You can say opposite process of splitting.
-- - Branch / Sub-Tree: A sub section of entire tree is called branch or sub-tree.
-- - Parent and Child Node: A node, which is divided into sub-nodes is called parent node of sub-nodes whereas sub-nodes are the child of parent node.
+- Root Node: It represents entire population or sample and this further gets divided into two or more homogeneous sets.
+- Splitting: It is a process of dividing a node into two or more sub-nodes.
+- Decision Node: When a sub-node splits into further sub-nodes, then it is called decision node.
+- Leaf/Terminal Node: Nodes do not split is called Leaf or Terminal node.
+- Pruning: When we remove sub-nodes of a decision node, this process is called pruning. You can say opposite process of splitting.
+- Branch / Sub-Tree: A sub section of entire tree is called branch or sub-tree.
+- Parent and Child Node: A node, which is divided into sub-nodes is called parent node of sub-nodes whereas sub-nodes are the child of parent node.
 
 ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/descision_tree_regression.jpg?raw=true)
 
@@ -96,7 +90,7 @@
 
 - Random forest is a supervised ensemble learning algorithm that is used for both classifications as well as regression problems.
 - But however, it is mainly used for classification problems.
-- the random forest algorithm creates decision trees on data samples and then gets the prediction from each of them and finally selects the best solution by means of voting.
+- The random forest algorithm creates decision trees on data samples and then gets the prediction from each of them and finally selects the best solution by means of voting.
 - It is an ensemble method that is better than a single decision tree because it reduces the over-fitting by averaging the result.
 
 > Assumption
@@ -107,7 +101,8 @@
 
 - K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on Supervised Learning technique.
 - K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.
-- K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
+- K-NN algorithm stores all the available data and classifies a new data point based on the similarity.
+- This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
 - K-NN algorithm can be used for Regression as well as for Classification but mostly it is used for the Classification problems.
 - K-NN is a non-parametric algorithm, which means it does not make any assumption on underlying data.
 - It is also called a lazy learner algorithm because it does not learn from the training set immediately instead it stores the dataset and at the time of classification, it performs an action on the dataset.
@@ -119,3 +114,11 @@
 - The data is in feature space, which means data in feature space can be measured by distance metrics such as Manhattan, Euclidean, etc.
 - Each of the training data points consists of a set of vectors and a class label associated with each vector.
 - Desired to have ‘K’ as an odd number in case of 2 class classification.
+
+## Use cases of regression
+
+- Population growth prediction
+- Advertising popularity prediction
+- Weather forecasting
+- Market forecasting
+- Estimating life expectancy

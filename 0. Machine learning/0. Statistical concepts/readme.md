@@ -384,7 +384,7 @@
 | p value     | p value < α                                      | Reject the null hypothesis        |
 | p value     | p value > α                                      | Cannot reject the null hypothesis |
 
-**Concetps**
+**_Concetps_**
 
 - Bias -- wrong assumptions when training -> can't capture unerlying patterns -> BHU-- high bias underfit
 - Varriance -- sensetive to fluctuations when training -> can't generalize on unseen data -> Overfit

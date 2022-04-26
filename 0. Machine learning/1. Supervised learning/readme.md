@@ -3,7 +3,7 @@ Based on types of prediction it can be divided in to.
 
 # Supervised learning applications --
 
-- predictive analysis based on regression or categorical classification
+- Predictive analysis based on regression or categorical classification
 - spam detection
 - pattern detection
 - Natural language processing
@@ -11,18 +11,16 @@ Based on types of prediction it can be divided in to.
 - Automatic image classification
 - Automatic sequence processing
 
-# Regression
+# Regression - We are trying to predict a number
 
-**_We are trying to predict a number_**
-
-**Algorithms for regression**--
+**_Algorithms for regression_**
 
 - Linear regression
 - Support vector machines
 - Descision tree
 - Random forest
 
-**Metrics that can be used for regression techniques**
+**_Metrics that can be used for regression techniques_**
 
 - mean absolute error (MAE)
 - mean squared error (MSE)
@@ -30,11 +28,9 @@ Based on types of prediction it can be divided in to.
 - R squared
 - Adjusted R squares
 
-# Classification
+# Classification -- We are trying to predict a class
 
-**We are trying to predict a class**
-
-**Algorithms for classification**
+**_Algorithms for classification_**
 
 - Logistic regression
 - Random forest
@@ -46,7 +42,7 @@ Based on types of prediction it can be divided in to.
 - LightGBM
 - CatBoost
 
-**Metrics that can be used for classification techniques**
+**_Metrics that can be used for classification techniques_**
 
 - Accuracy
 - Precision

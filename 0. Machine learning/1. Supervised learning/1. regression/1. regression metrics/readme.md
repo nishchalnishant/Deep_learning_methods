@@ -1,6 +1,6 @@
-Metrics that can be used for regression techniques --
+## Metrics that can be used for regression techniques --
 
-**mean absolute error (MAE)**
+**_mean absolute error (MAE)_**
 
 - Simple metric which calculates the absolute difference between actual and predicted values.
 - The MAE we get is in the same unit as the output variable
@@ -9,7 +9,7 @@ Metrics that can be used for regression techniques --
 
 ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/mae.jpg?raw=true)
 
-**mean squared error (MSE)**
+**_mean squared error (MSE)_**
 
 - Graph of mean squared error is differentiable so we can use it as loss function.
 - The value we get afterr calculating MSE is a squared unit of output .
@@ -17,21 +17,23 @@ Metrics that can be used for regression techniques --
 
 ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/mse.jpg?raw=true)
 
-**Root mean squared error (RMSE)**
+**_Root mean squared error (RMSE)_**
 
 - The outpput we get is the same unit as the required output cariale which makes interpretation of loss easy
 - It is not tha roboust to outliers as compared to mean absolute error.
 - Most prefered metrics while working with deep learning.
 - In other words, it tells you how concentrated the data is around the line of best fit.
-- commonly used in climatology, forecasting, and regression analysis to verify experimental results.
+- Commonly used in climatology, forecasting, and regression analysis to verify experimental results.
 - If the correlation coefficient is 1, the RMSE will be 0, because all of the points lie on the regression line (and therefore there are no errors).
-- RMSE has a double purpose:
-  > > To serve as a heuristic for training models
-  > > To evaluate trained models for usefulness / accuracy
+
+> RMSE has a double purpose:
+
+- To serve as a heuristic for training models
+- To evaluate trained models for usefulness / accuracy
 
 ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/rmse.jpg?raw=true)
 
-**R squared**
+**_R squared_**
 
 - Tells the performance of the model not the loss in an absolute sense .
 - In contrast, MAE and MSE depend on the context as we have seen whereas the R2 score is independent of context.
@@ -44,9 +46,9 @@ Metrics that can be used for regression techniques --
 
 ![alt text](https://github.com/nishchalnishant/Deep_learning_methods/blob/main/img/r_squared.jpg?raw=true)
 
-- **Adjusted R squares**
+**_Adjusted R squares_**
 
-- works on the disadvantage of the r squared which is while adding new features in data the r2 score starts increasing or remains constant but it never decreases because it assumes that while adding more data varriance of data increases.
+- Works on the disadvantage of the r squared which is while adding new features in data the r2 score starts increasing or remains constant but it never decreases because it assumes that while adding more data varriance of data increases.
 - In adjusted r squared as K increases by adding some features so the denominator will increase n-1 remains constant r^2 score remains constant or increase slightly so the complete answer will increase and when we subtract this from one then the resultant score will decrease. so this is the case when we add an irrelevant feature in the dataset.
 - And if we add a relevant feature then the R2 score will increase and 1-R2 will decrease heavily and the denominator will also decrease so the complete term decreases, and on subtracting from one the score increases.
 
