@@ -1,6 +1,6 @@
 ## Metrics that can be used for regression techniques --
 
-\***\*Mean absolute error (MAE)\*\***
+**Mean absolute error (MAE)**
 
 - Sum of all errors and divide them by a total number of observations.
 - MAE measures the average magnitude of the errors in a set of forecasts, without considering their direction.
